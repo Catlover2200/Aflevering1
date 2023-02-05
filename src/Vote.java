@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Vote {
-
+    //Methods 1
     public static void main(String[] args) {
         Scanner enterAge = new Scanner(System.in);
         System.out.println("Enter age");

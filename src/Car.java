@@ -1,21 +1,23 @@
-public class Car {
-    public int price;
-    public String model;
-    public boolean start; {
-    }
-    public boolean stop; {
-    }
-    public boolean move; {
-    }
+    //Car & driver
+    public class Car {
+        public int price;
+        public String model;
+        public boolean start; {
 
-}
+        }
+        public boolean stop; {
 
-class Driver {
-    public String name;
-    public int age;
-    public void drive() {
+        }
+        public boolean move; {
 
-        System.out.println("driver driving");
+        }
     }
 
-}
+    class Driver {
+        public String name;
+        public int age;
+        public void drive() {
+
+            System.out.println("driver driving");
+        }
+    }

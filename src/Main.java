@@ -2,6 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Car & driver
         Car Cory = new Car();
         System.out.println(Cory);
         Cory.price = 20;
@@ -26,6 +27,8 @@ public class Main {
         System.out.println(Dianna.age);
         Dianna.drive();
 
+
+        //Employee
 
         Employee Wilma = new Employee("Wilma", " Kat", 120500);
         Employee Ritt = new Employee("Ritt", " Bjerregaard", 180200);

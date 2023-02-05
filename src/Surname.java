@@ -1,5 +1,6 @@
 import java.util.*;
 public class Surname {
+    //Methods 4
     public static void main(String[] args) {
         Scanner enterName = new Scanner(System.in);
         System.out.println("Enter full name");

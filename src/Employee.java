@@ -1,7 +1,8 @@
-public class Employee {
-    public String firstName;
-    public String lastName;
-    public double monthlySalary;
+    //Employee
+    public class Employee {
+        public String firstName;
+        public String lastName;
+        public double monthlySalary;
 
     public Employee(String firstName, String lastName, double monthlySalary) {
         this.firstName = firstName;

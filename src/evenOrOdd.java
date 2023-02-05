@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class evenOrOdd {
+    //Methods 3
     public static void main(String[] args) {
 
         Scanner evenOrOdd = new Scanner(System.in);
