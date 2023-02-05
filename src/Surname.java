@@ -9,11 +9,11 @@ public class Surname {
         System.out.println("Full name is: " + name);
         System.out.print("Initials is: ");
 
-        int nameLenght = name.length();
+        int nameLength = name.length();
         name = name.trim();
 
         String firstName = "";
-        for (int i = 0; i < nameLenght; i++) {
+        for (int i = 0; i < nameLength; i++) {
             char initial = name.charAt(i);
 
             if (initial != ' ') {
