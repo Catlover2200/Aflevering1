@@ -15,6 +15,10 @@ public class Employee {
         return firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
     public void setMonthlySalary(double monthlySalary) {
         if (monthlySalary >= 0) {
             this.monthlySalary = monthlySalary;

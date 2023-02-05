@@ -14,19 +14,23 @@ public class Surname {
         String firstName = "";
         for (int i = 0; i < nameLenght; i++) {
             char initial = name.charAt(i);
+
             if (initial != ' ') {
                 firstName = firstName + initial;
-            } else {
+            }
+
+            else {
                 System.out.print(Character.toUpperCase(firstName.charAt(0)) + ". ");
                 firstName = "";
             }
         }
         String lastName = "";
         for (int j = 0; j < firstName.length(); j++) {
+
             if (j == 0)
                 lastName = lastName + Character.toUpperCase(firstName.charAt(0));
-            else
-                lastName = lastName + Character.toLowerCase(firstName.charAt(j));
+
+            else lastName = lastName + Character.toLowerCase(firstName.charAt(j));
         }
         System.out.println(lastName);
     }

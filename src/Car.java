@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Car {
     public int price;
     public String model;

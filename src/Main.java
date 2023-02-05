@@ -1,4 +1,3 @@
-
 public class Main {
 
     public static void main(String[] args) {
@@ -28,17 +27,17 @@ public class Main {
         Dianna.drive();
 
 
-        Employee Wilma = new Employee("Wilma", "Kat", 15000);
-        Employee Ritt = new Employee("Ritt", "Bjerregaard", 20000);
+        Employee Wilma = new Employee("Wilma", " Kat", 120500);
+        Employee Ritt = new Employee("Ritt", " Bjerregaard", 180200);
 
-        System.out.println(Wilma.getFirstName() + "'s monthly salary is " + Wilma.getMonthlySalary());
-        System.out.println(Ritt.getFirstName() + "'s monthly salary is " + Ritt.getMonthlySalary());
+        System.out.println(Wilma.getFirstName() + Wilma.getLastName() + "'s monthly salary is " + Wilma.getMonthlySalary());
+        System.out.println(Ritt.getFirstName() + Ritt.getLastName() + "'s monthly salary is " + Ritt.getMonthlySalary());
 
         Wilma.setMonthlySalary(Wilma.getMonthlySalary() * 1.1);
         Ritt.setMonthlySalary(Ritt.getMonthlySalary() * 1.1);
 
-        System.out.println("Salary after 10% boost");
-        System.out.println(Wilma.getFirstName() + "'s monthly salary is " + Wilma.getMonthlySalary());
-        System.out.println(Ritt.getFirstName() + "'s monthly salary is " + Ritt.getMonthlySalary());
+        System.out.println(Wilma.getFirstName()  + Wilma.getLastName() + "'s monthly salary after 10% boost is " + Wilma.getMonthlySalary());
+        System.out.println(Ritt.getFirstName() + Ritt.getLastName() + "'s monthly salary after 10% boost is " + Ritt.getMonthlySalary());
+
             }
         }
